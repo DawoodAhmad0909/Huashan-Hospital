@@ -1,6 +1,12 @@
 # Huashan-Hospital
-Objective: Analyze Patients' data
-Database: Huashan_hospital_database
+## Objective:
+   ### Analyze Patients' data 
+   ### Analyze Demographics
+   ### Track Registration Trends
+   ### Evaluate Insurance Provider Impact
+   ### Assess Geographic Reach
+   
+## Database: Huashan_hospital_database
 ```sql
 CREATE DATABASE Huashan_hospital_database;
 ```
