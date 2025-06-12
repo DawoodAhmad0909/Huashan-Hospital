@@ -2,7 +2,7 @@
 Objective: Analyze Patients' data
 Database: Huashan_hospital_database
 ```sql
-CREATE DATABASE Huashan_hospital_database;```
+CREATE DATABASE Huashan_hospital_database;
 
 ##Overview
 
