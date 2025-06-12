@@ -28,12 +28,12 @@ CREATE TABLE patients(
 );
 
 Key Queries 
-1. What is the age distribution of our patients in 2025?  
-'''sql
+1. What is the age distribution of our patients in 2025? 
+ ```sql
 SELECT        FLOOR(DATEDIFF('2025-12-31',date_of_birth)/365.25)AS Age, COUNT(*) AS Number_of_patients FROM patients
 WHERE date_of_birth IS NOT NULL
 GROUP BY Age
-ORDER BY Age;
+ORDER BY Age;```
 
 2. Which insurance providers do most of our patients use?  
 
