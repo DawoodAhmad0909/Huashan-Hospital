@@ -1,4 +1,9 @@
 # Huashan Hospital Shanghai
+## Database:
+  #### Huashan_hospital_database
+```sql
+CREATE DATABASE Huashan_hospital_database;
+```
 ## Objectives:
    #### Analyze Patients' data 
    #### Analyze Demographics
@@ -6,11 +11,6 @@
    #### Evaluate Insurance Provider Impact
    #### Assess Geographic Reach
    
-## Database:
-  #### Huashan_hospital_database
-```sql
-CREATE DATABASE Huashan_hospital_database;
-```
 ## Overview
 
 This database is designed to help Huashan Hospital keep track of its patients and understand key trends in its patient population. It contains a single, detailed table called patients in which the data of each patient is stored.
