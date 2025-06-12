@@ -1,8 +1,8 @@
 # Huashan-Hospital
 Objective: Analyze Patients' data
 Database: Huashan_hospital_database
-
-CREATE DATABASE Huashan_hospital_database;
+```sql
+CREATE DATABASE Huashan_hospital_database;```
 
 Overview
 
@@ -10,7 +10,7 @@ This database is designed to help Huashan Hospital keep track of its patients an
 
 
 Table: patients 
-
+```sql
 CREATE TABLE patients(
         patient_id INT PRIMARY KEY,
     first_name VARCHAR(15),
@@ -25,7 +25,7 @@ CREATE TABLE patients(
     email VARCHAR(50) UNIQUE,
     insurance_provider VARCHAR(25),
     registration_date DATE 
-);
+);```
 
 Key Queries 
 1. What is the age distribution of our patients in 2025? 
