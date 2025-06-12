@@ -4,12 +4,12 @@ Database: Huashan_hospital_database
 ```sql
 CREATE DATABASE Huashan_hospital_database;```
 
-Overview
+##Overview
 
 This database is designed to help Huashan Hospital keep track of its patients and understand key trends in its patient population. It contains a single, detailed table called patients in which the data of each patient is stored.
 
 
-Table: patients 
+##Table: patients 
 ```sql
 CREATE TABLE patients(
         patient_id INT PRIMARY KEY,
@@ -27,15 +27,15 @@ CREATE TABLE patients(
     registration_date DATE 
 );```
 
-Key Queries 
-1. What is the age distribution of our patients in 2025? 
+##Key Queries 
+###1. What is the age distribution of our patients in 2025? 
  ```sql
 SELECT        FLOOR(DATEDIFF('2025-12-31',date_of_birth)/365.25)AS Age, COUNT(*) AS Number_of_patients FROM patients
 WHERE date_of_birth IS NOT NULL
 GROUP BY Age
 ORDER BY Age;```
 
-2. Which insurance providers do most of our patients use?  
+###2. Which insurance providers do most of our patients use?  
 ```sql
 SELECT insurance_provider, COUNT(patient_id)AS Number_of_patients FROM patients
 GROUP BY insurance_provider
