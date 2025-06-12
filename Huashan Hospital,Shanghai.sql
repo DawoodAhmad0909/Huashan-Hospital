@@ -91,7 +91,7 @@ ORDER BY Patients DESC
 LIMIT 2;
 
 SELECT 
-	SUM(CASE WHEN city='BOSTON' THEN 1 END) *100/COUNT(*) AS Boston_percentage,
+	SUM(CASE WHEN city='Boston' THEN 1 END) *100/COUNT(*) AS Boston_percentage,
 	SUM(CASE WHEN city!='Boston' THEN 1 END)*100/COUNT(*) AS Other_cities_percentage
 FROM patients;
 
