@@ -134,3 +134,19 @@ SELECT MONTH(registration_date) AS MONTH , COUNT(*) AS Total_patients FROM patie
 GROUP BY MONTH
 ORDER BY Total_patients DESC
 LIMIT 2;
+
+# 📊 Patient Database Queries (2025)
+
+This document outlines key SQL queries used to analyze patient data from a healthcare database, focusing on demographics, insurance usage, registration trends, and contact analysis.
+
+---
+
+## 1. 📈 General Patient Demographics
+
+### 1. Age distribution of patients in 2025
+```sql
+SELECT age(date_of_birth) AS age, COUNT(*) AS Number_of_patients 
+FROM patients
+WHERE date_of_birth IS NOT NULL
+GROUP BY age
+ORDER BY age;
