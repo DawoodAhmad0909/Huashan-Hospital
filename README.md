@@ -1,10 +1,10 @@
 # Huashan-Hospital
 ## Objective:
-   ### Analyze Patients' data 
-   ### Analyze Demographics
-   ### Track Registration Trends
-   ### Evaluate Insurance Provider Impact
-   ### Assess Geographic Reach
+   #### Analyze Patients' data 
+   #### Analyze Demographics
+   #### Track Registration Trends
+   #### Evaluate Insurance Provider Impact
+   #### Assess Geographic Reach
    
 ## Database: Huashan_hospital_database
 ```sql
