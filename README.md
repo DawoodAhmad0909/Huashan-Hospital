@@ -1,5 +1,5 @@
-# Huashan-Hospital
-## Objective:
+# Huashan Hospital Shanghai
+## Objectives:
    #### Analyze Patients' data 
    #### Analyze Demographics
    #### Track Registration Trends
