@@ -3,10 +3,26 @@ Objective: Analyze Patients' data
 Database: Huashan_hospital_database
 
 Overview
+
 This database is designed to help Huashan Hospital keep track of its patients and understand key trends in its patient population. It contains a single, detailed table called patients in which the data of each patient is stored.
 
 Table: patients 
 
+CREATE TABLE patients(
+        patient_id INT PRIMARY KEY,
+    first_name VARCHAR(15),
+    last_name VARCHAR(15),
+    date_of_birth DATE,
+    gender VARCHAR(5),
+    address VARCHAR(100),
+    city VARCHAR(20),
+    state VARCHAR(20),
+    zip_code INT,
+    phone BIGINT UNIQUE,
+    email VARCHAR(50) UNIQUE,
+    insurance_provider VARCHAR(25),
+    registration_date DATE 
+);
 
 Key Queries 
 1. What is the age distribution of our patients in 2025?  
